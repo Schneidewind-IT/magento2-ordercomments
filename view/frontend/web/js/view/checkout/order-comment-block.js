@@ -67,7 +67,7 @@ define(
                 return window.checkoutConfig.comment_initial_collapse_state;
             },
             isInitialStateOpened: function() {
-                return this.getInitialCollapseState() === 1
+                return this.getInitialCollapseState() === 1 || (this.getInitialCollapseState() === 3 && getExistingComment().length > 0)
             }
         });
     }

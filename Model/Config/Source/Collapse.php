@@ -33,7 +33,8 @@ class Collapse implements \Magento\Framework\Option\ArrayInterface
         return [
             0 => __('Starts with field closed'),
             1 => __('Starts with field opened'),
-            2 => __('Render field without collapse')
+            2 => __('Render field without collapse'),
+            3 => __('Starts with field closed if comment is empty')
         ];
     }
 }

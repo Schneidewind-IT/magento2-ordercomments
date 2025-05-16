@@ -16,3 +16,4 @@
 "Maximum length in characters","Carecteres máximos"
 "Show comments in customer account","Mostrar comentario en cuenta de cliente"
 "Initial collapse state on checkout page","Estado inicial del campo en el proceso de compra"
+"Starts with field closed if comment is empty","Campo de comentario inicialmente cerrado si está vacío"
